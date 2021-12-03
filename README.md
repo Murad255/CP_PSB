@@ -1,20 +1,22 @@
 # Проект команды New Comand(1)
 
+<p align="center">
 <code><img height="350" src="Карточки-исправленное.gif"></code>
+</p>
 
 [Ссылка на прототип](https://psb.chekryzh.space/home)
-
 
 ## Содержимое:
 
 * PSBp - папка с backend содержимым. Запускается в среде разработки IntelliJ IDEA. Для успешного запуска требуется также в pgAdmin 4  создать профиль  "psb" с паролем "psb" и  базу данных "psb".
 
-*  DataModel.mdj - ER-диаграмма данных. Запускается с помошью StartUML
+* DataModel.mdj - ER-диаграмма данных. Запускается с помошью StartUML
 
 * DataBaceGen - sql запросы для создания таблиц в базе данных. Были портированы из модели DataModel.mdj с помошью StartUML.
 
 * psbFront - папка с backend содержимым. Запускается в среде разработки WebStorm ( более подробно так-же [тут](https://cli.vuejs.org/config/) ).
 
+* исходники для макета дизайна в Figma находятся [тут](https://www.figma.com/file/gwDSF8A1Bchm4TZG51NpNQ/%D0%9F%D1%80%D0%BE%D0%BC%D1%81%D0%B2%D1%8F%D0%B7%D1%8C%D0%B1%D0%B0%D0%BD%D0%BA?node-id=0%3A1)
 
 
 ## Стек технологий:
