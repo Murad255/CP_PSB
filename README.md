@@ -2,7 +2,7 @@
 
 <code><img height="350" src="Карточки-исправленное.gif"></code>
 
-[Ссылка на прототипы](https://psb.chekryzh.space/home)
+[Ссылка на прототип](https://psb.chekryzh.space/home)
 
 
 ## Содержимое:
