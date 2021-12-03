@@ -1,7 +1,7 @@
 package com.hack.PSBp.controllers;
 
 import com.hack.PSBp.domain.Result;
-import com.hack.PSBp.service.ResultService;
+import com.hack.PSBp.repos.ResultRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -10,6 +10,7 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.List;
+import java.util.Optional;
 
 
 @RestController
@@ -17,28 +18,28 @@ import java.util.List;
 public class ResultController {
 
     @Autowired
-    private ResultService service;
-
+    private ResultRepo service;
 
     @GetMapping("/")
-    public List<Result> read() {
-        return service.readAll();
+    public Iterable<Result> read() {
+        return service.findAll();
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Result> read(@PathVariable("id") Long id) {
-        Result foundStudent = service.read(id);
-        if (foundStudent == null) {
+        Optional<Result> foundResult = service.findById(id);
+        Result result = foundResult.isPresent() ? foundResult.get() : new Result();
+        if (foundResult == null) {
             return ResponseEntity.notFound().build();
         } else {
-            return ResponseEntity.ok(foundStudent);
+            return ResponseEntity.ok(result);
         }
 
     }
 
     @PostMapping("/")
     public ResponseEntity<Result> create(@RequestBody Result student) throws URISyntaxException {
-        Result createdStudent = service.create(student);
+        Result createdStudent = service.save(student);
 
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}")
@@ -52,7 +53,9 @@ public class ResultController {
 
     @PutMapping("/{id}")
     public ResponseEntity<Result> update(@RequestBody Result student, @PathVariable Long id) {
-        Result updatedStudent = service.update(id, student);
+        service.deleteById(id);
+        student.setId(id);
+        Result updatedStudent = service.save( student);
         if (updatedStudent == null) {
             return ResponseEntity.notFound().build();
         } else {
@@ -62,8 +65,7 @@ public class ResultController {
 
     @DeleteMapping("/{id}")
     public ResponseEntity<Object> deleteStudent(@PathVariable Long id) {
-        service.delete(id);
-
+        service.deleteById(id);
         return ResponseEntity.noContent().build();
     }
 }

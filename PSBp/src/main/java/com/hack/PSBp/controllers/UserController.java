@@ -43,7 +43,7 @@ public class UserController {
 
     @PostMapping("/")
     public ResponseEntity<UserPSB> create(@RequestBody UserPSB user) throws URISyntaxException {
-        UserPSB createdUser = service.save (user);
+        UserPSB createdUser = service.save(user);
 
         URI uri = ServletUriComponentsBuilder.fromCurrentRequest()
                 .path("/{id}")
