@@ -1,7 +1,7 @@
 # Проект команды New Comand(1)
 
 <p align="center">
-<code><img height="350" src="Карточки-исправленное.gif"></code>
+<code><img  src="Карточки-исправленное.gif"></code>
 </p>
 
 [Ссылка на прототип](https://psb.chekryzh.space/home)
