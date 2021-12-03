@@ -1,21 +1,49 @@
+# Проект команды New Comand(1)
 
-Ссылки на прототипы дизайна:
+<code><img height="350" src="Карточки-исправленное.gif"></code>
 
-later
+[Ссылка на прототипы](https://psb.chekryzh.space/home)
+
 
 ## Содержимое:
 
-✅  PSBp - backend на java+spring boot+hibernate+postgree.
-Запускается в IntelliJ IDEA, в pgAdmin 4 требуется создать профиль  "psb" с паролем "psb" и  базу данных "psb".
+* PSBp - папка с backend содержимым. Запускается в среде разработки IntelliJ IDEA. Для успешного запуска требуется также в pgAdmin 4  создать профиль  "psb" с паролем "psb" и  базу данных "psb".
 
-✅  DataModel.mdj - ER-диаграмма данных. Запускается с помошью StartUML
+*  DataModel.mdj - ER-диаграмма данных. Запускается с помошью StartUML
 
-✅  DataBaceGen - sql запросы для создания таблиц в базе данных.
+* DataBaceGen - sql запросы для создания таблиц в базе данных. Были портированы из модели DataModel.mdj с помошью StartUML.
 
-frontend - later
+* psbFront - папка с backend содержимым. Запускается в среде разработки WebStorm ( более подробно так-же [тут](https://cli.vuejs.org/config/) ).
 
-### Для связи: 
-tukva01@mail.ru
-nastyha2012@gmail.com
-ion8@bk.ru
-murad.abdulzagirov@gmail.com
+
+
+## Стек технологий:
+### **Design** | Figma
+<code><img height="30" src="https://adsme.ru/wp-content/uploads/2021/02/figma-design.png"></code>
+
+### **Front-end**| HtmL, CSS, JavaScript, Vue.js
+<code><img height="40" src="https://radioprog.ru/uploads/media/articles/0001/01/2cc857f7f034ad92dae834fba16b89999b455fb0.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/dereknguyen269/dereknguyen269/master/images/css3.png"></code>
+<code><img height="30" src="https://raw.githubusercontent.com/dereknguyen269/dereknguyen269/master/images/js.png"></code>
+<code><img height="30" src="https://vuejs.org/images/logo.svg"></code>
+
+### **Back-end** |  Java, Spring boot, Hibernate
+<code><img height="40" marning src="https://geekhacker.ru/wp-content/uploads/2021/03/java-logo.png"></code>
+<code><img height="30" src="https://maximsungmo.github.io/assets/images/spring.png"></code>
+<code><img height="30" src="https://i.dlpng.com/static/png/7264842_preview.png"></code>
+
+### **Databases** | Postgresql, StartUML
+<code><img height="30" src="https://www.pvsm.ru/images/2018/06/14/po-sledam-meetup-novye-vozmojnosti-PostgreSQL-11.png"></code>
+<code><img height="32" src="https://imgix.setapp.com/app/470/4266/icon-1615449851-6049cefbd095c.png?auto=format%2Ccompress&dpr=5&ixlib=php-3.3.0&q=75&w=120"></code>
+
+
+ ### **Cloud Servers** | Google Cloud Platform
+<code><img height="40" src="https://raw.githubusercontent.com/dereknguyen269/dereknguyen269/master/images/gcloud.png"></code>
+
+
+
+## Наши контакты: 
+### *tukva01@mail.ru*
+### *nastyha2012@gmail.com*
+### *ion8@bk.ru*
+### *murad.abdulzagirov@gmail.com* 
