@@ -36,8 +36,7 @@
 <code><img height="40" marning src="https://geekhacker.ru/wp-content/uploads/2021/03/java-logo.png"></code>
 <code><img height="30" src="https://maximsungmo.github.io/assets/images/spring.png"></code>
 <code><img height="30" src="https://i.dlpng.com/static/png/7264842_preview.png"></code>
-<code><img height="30" src="https://plugins.jetbrains.com/files/16008/124940/icon/pluginIcon.svg
-"></code>
+<code><img height="30" src="https://www.scottbrady91.com/img/logos/ktor.png"></code>
 
 ### **Databases** | Postgresql, StartUML
 <code><img height="30" src="https://www.pvsm.ru/images/2018/06/14/po-sledam-meetup-novye-vozmojnosti-PostgreSQL-11.png"></code>
@@ -50,7 +49,7 @@
 
 
 ## Наши контакты, по всем вопросам: 
-### *tukva01@mail.ru*
-### *nastyha2012@gmail.com*
-### *ion8@bk.ru*
-### *murad.abdulzagirov@gmail.com* 
+### Лиля - *tukva01@mail.ru*
+### Настя - *nastyha2012@gmail.com*
+### Арсен - *ion8@bk.ru*
+### Мурад - *murad.abdulzagirov@gmail.com* 
