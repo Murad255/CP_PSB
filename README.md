@@ -16,7 +16,7 @@
 
 * psbFront - папка с backend содержимым. Запускается в среде разработки WebStorm ( более подробно так-же [тут](https://cli.vuejs.org/config/) ).
 
-* исходники для макета дизайна в Figma находятся [тут](https://www.figma.com/file/gwDSF8A1Bchm4TZG51NpNQ/%D0%9F%D1%80%D0%BE%D0%BC%D1%81%D0%B2%D1%8F%D0%B7%D1%8C%D0%B1%D0%B0%D0%BD%D0%BA?node-id=0%3A1)
+* исходники для макета дизайна в Figma находятся [тут](https://www.figma.com/file/gwDSF8A1Bchm4TZG51NpNQ/%D0%9F%D1%80%D0%BE%D0%BC%D1%81%D0%B2%D1%8F%D0%B7%D1%8C%D0%B1%D0%B0%D0%BD%D0%BA?node-id=0%3A1). Некоторые страницы реализованы с частичным функционалом, (как SVG).
 
 
 ## Стек технологий:
