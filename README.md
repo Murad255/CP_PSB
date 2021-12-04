@@ -4,7 +4,7 @@
 <code><img  src="Карточки-исправленное.gif"></code>
 </p>
 
-[Ссылка на прототип](https://psb.chekryzh.space/home) (Для входа введите рандомную почту и пароль)
+## [Ссылка на прототип](https://psb.chekryzh.space/home)
 
 ## Содержимое:
 
@@ -12,7 +12,7 @@
 
 * **psbFront** - папка с backend содержимым. Запускается в среде разработки WebStorm ( более подробно так-же [тут](https://cli.vuejs.org/config/) ).
 
-* **psb_ktor** - папка с backend содержимым (Ktor), уже задеплоен [здеся](https://balakovo.herokuapp.com/todos), но не успели его привизать к фронту
+* **psb_ktor** - папка с backend содержимым (Ktor), запущенный на [этом](https://balakovo.herokuapp.com/todos) сервере. Запускается в среде разработки IntelliJ IDEA. Тестовый проект для проверки некоторых функций.
 
 * **PSBp** - папка с backend содержимым (Spring). Запускается в среде разработки IntelliJ IDEA. Для успешного запуска требуется также в pgAdmin 4  создать профиль  "psb" с паролем "psb" и  базу данных "psb".
 
